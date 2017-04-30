@@ -6,7 +6,7 @@
 This [mongodb blog](https://www.mongodb.com/blog/post/schema-design-for-time-series-data-in-mongodb) is the basis for this experiment.
 
 ## Schema
-The reommendation is to use `db.collection.insert` to create a document that contains an entire hour of data and then fill in the minutes and seconds with `db.collection.update`.
+The recommendation is to use `db.collection.insert` to create a document that contains an entire hour of data and then fill in the minutes and seconds with `db.collection.update`.
 ``` javascript
 {
   timestamp_hour: ISODate("2013-10-10T23:00:00.000Z"),
