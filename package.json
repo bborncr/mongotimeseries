@@ -1,0 +1,17 @@
+{
+  "name": "mongotimeseries",
+  "version": "1.0.0",
+  "description": "Experimenting with mongdb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bborncr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.6"
+  }
+}
