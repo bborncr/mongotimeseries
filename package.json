@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bborncr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bborncr/mongotimeseries.git"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",

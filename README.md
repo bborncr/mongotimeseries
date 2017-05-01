@@ -34,5 +34,11 @@ db.metrics.update(
 * express-Handlebars
 * mongodb
 ## MongoDB Atlas
-For testing purposes the db was setup on MondoDB's Atlas hosting service.
-##
+The db is setup on MondoDB's Atlas hosting service.
+## TODO
+* [x] ~~Connect to MongoDB~~
+* [x] ~~Insert/update~~
+* [ ] Generate and insert document with 1 hour of data (initial data as NaN?)
+* [ ] Update the data at 1 second intervals (generate sine wave as fake data?)
+* [ ] Read data
+* [ ] Display the data in a graph (Google Annotation Chart?)
