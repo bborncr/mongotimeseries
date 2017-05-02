@@ -42,5 +42,5 @@ The db is setup on MondoDB's Atlas hosting service.
 * [x] ~~Generate and insert document with 1 hour of data (initial data as NaN?)~~
 * [ ] Update the data at 1 second intervals (generate sine wave as fake data?)
 * [ ] Read data
-* [ ] Use Google Annotation Chart
+* [ ] Use Google Annotation Charts
 * [ ] Display the mongodb data in the graph
